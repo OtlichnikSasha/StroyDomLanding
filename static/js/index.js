@@ -40,7 +40,6 @@
     }
 
     mobile_menu.onclick = () => menuHandler()
-
     for (let i = 0; i < navLinks.length; i++) {
         const link = navLinks[i]
         const footerLink = footerNavLinks[i]
