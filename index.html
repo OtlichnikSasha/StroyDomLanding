@@ -1,0 +1,526 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>StroyDom</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=MuseoModerno:wght@200;300;400;500;600;700;800;900&display=swap"
+          rel="stylesheet">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Gentium+Book+Plus:wght@400;700&display=swap"/>
+    <link href="static/css/main.css" rel="stylesheet">
+    <link href="static/libraries/fontawesome/css/all.css" rel="stylesheet">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <meta name="keywords" content="Лендинг, Landing page, Landing строительной компании"/>
+    <meta name="author" content="Варламов Александр">
+    <meta name="description" content='Landing page для строительной компании'/>
+    <meta property="og:title" content="Landing page для строительной компании"/>
+    <meta property="og:description" content="Stroy Dom - landing page для для строительной компании"/>
+    <!--    <meta property="og:image" content="static/images/bws_landing.jpg" />-->
+    <meta property="og:type" content="landing"/>
+    <link rel="stylesheet" href="https://unpkg.com/swiper@8/swiper-bundle.min.css"/>
+    <script src="https://unpkg.com/swiper@8/swiper-bundle.min.js"></script>
+</head>
+<body class="hidden">
+<div id="preloader" class="preloader visible">
+    Loading...
+</div>
+<!-- Header -->
+<header class="header" id="header">
+    <div class="container">
+        <div class="header_logo_place">
+            <div class="logo_square">
+                <h1>Строй дом</h1>
+            </div>
+        </div>
+        <nav class="nav" id="nav">
+            <div class="nav__links">
+                <a href="#main" class="nav_link">
+                    Главная
+                </a>
+                <a href="#technology" class="nav_link">
+                    Технологии
+                </a>
+                <a href="#sphere" class="nav_link">
+                    Сфера деятельности
+                </a>
+                <a href="#benefits" class="nav_link">
+                    Преимущества
+                </a>
+                <a href="#about" class="nav_link">
+                    О компании
+                </a>
+            </div>
+            <div class="nav__social">
+                <a class="social_item" href="" target="_blank">
+                    <div class="social_item__link">
+                        <span class="fa-solid fa-envelope"></span>
+                    </div>
+                </a>
+                <a class="social_item" href="" target="_blank">
+                    <div class="social_item__link">
+                        <span class="fa-brands fa-facebook"></span>
+                    </div>
+                </a>
+                <a class="social_item" href="" target="_blank">
+                    <div class="social_item__link">
+                        <span class="fa-brands fa-whatsapp"></span>
+                    </div>
+                </a>
+                <a class="social_item" href="" target="_blank">
+                    <div class="social_item__link">
+                        <span class="fa-brands fa-instagram"></span>
+                    </div>
+                </a>
+                <a class="social_item" href="" target="_blank">
+                    <div class="social_item__link">
+                        <span class="fa-brands fa-vk"></span>
+                    </div>
+                </a>
+            </div>
+        </nav>
+        <div class="mobile_menu_place" id="mobile_menu_place">
+            <span></span>
+            <span></span>
+            <span></span>
+        </div>
+        <div class="header_phone_place">
+            <a class="yellow_btn" href="tel: +7 (999) 999-99-99">
+                +7 (999) 999-99-99
+            </a>
+        </div>
+    </div>
+</header>
+<!-- === Main section  === -->
+<section class="main_section" id="main">
+    <div class="container">
+        <div class="main_section__social _anim-items">
+            <a class="social_item" href="" target="_blank">
+                <div class="social_item__link">
+                    <span class="fa-solid fa-envelope"></span>
+                </div>
+            </a>
+            <a class="social_item" href="" target="_blank">
+                <div class="social_item__link">
+                    <span class="fa-brands fa-facebook"></span>
+                </div>
+            </a>
+            <a class="social_item" href="" target="_blank">
+                <div class="social_item__link">
+                    <span class="fa-brands fa-whatsapp"></span>
+                </div>
+            </a>
+            <a class="social_item" href="" target="_blank">
+                <div class="social_item__link">
+                    <span class="fa-brands fa-instagram"></span>
+                </div>
+            </a>
+            <a class="social_item" href="" target="_blank">
+                <div class="social_item__link">
+                    <span class="fa-brands fa-vk"></span>
+                </div>
+            </a>
+        </div>
+
+        <div class="main_section__data _anim-items">
+            Строительство и оснащение домов от ”Комфорт”
+            до “Элит” класса
+        </div>
+        <!-- Swiper -->
+        <div class="swiper">
+            <div class="swiper-wrapper">
+                <!-- Slides -->
+                <div class="swiper-slide">
+                    <div class="main_section__slider">
+                        <div class="slider_background">
+                            <img src="static/img/main_slide.png" alt="main_slide" class="slider_img"/>
+                        </div>
+                    </div>
+                </div>
+                <div class="swiper-slide">
+                    <div class="main_section__slider">
+                        <div class="slider_background">
+                            <img src="static/img/slide_2.jpg" alt="main_slide" class="slider_img"/>
+                        </div>
+                    </div>
+                </div>
+                <div class="swiper-slide">
+                    <div class="main_section__slider">
+                        <div class="slider_background">
+                            <img src="static/img/slide_3.jpg" alt="main_slide" class="slider_img"/>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- Pagination -->
+            <div class="swiper-pagination"></div>
+            <!-- Navigation -->
+            <div class="swiper-button-prev"></div>
+            <div class="swiper-button-next"></div>
+        </div>
+    </div>
+</section>
+<!-- === Technology section  === -->
+<section class="technology_section" id="technology">
+    <div class="technology_section__data">
+        <div class="yellow_rectangle _anim-items"></div>
+        <div class="yellow_rectangle _anim-items"></div>
+        <div class="container_data">
+            <div class="heading">
+                ТЕХНОЛОГИИ СТРОИТЕЛЬСТВА
+            </div>
+            <div class="black_line"></div>
+            <div class="technology_item_place">
+                <div class="technology_item _anim-items">
+                    <div class="technology_item__heading">
+                        Деревянные дома
+                    </div>
+                    <div class="technology_item__img_place">
+                        <div class="technology_item__img_background">
+                            <img src="static/img/wooden_houses.png" alt="Деревянные дома"/>
+                        </div>
+                    </div>
+                    <div class="technology_item__details_place">
+                        <div class="more_btn_place">
+                            Уютные дома из сруба и кленового бруса под ключ по выгодным ценам
+                        </div>
+                        <div class="more_btn">
+                            <span class="fa-solid fa-arrow-up"></span>
+                            <span>Подробнее</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="technology_item _anim-items">
+                    <div class="technology_item__heading">
+                        Каркасные дома
+                    </div>
+                    <div class="technology_item__img_place">
+                        <div class="technology_item__img_background">
+                            <img src="static/img/frame_houses.png" alt="Каркасные дома"/>
+                        </div>
+                    </div>
+                    <div class="technology_item__details_place">
+                        <div class="more_btn_place">
+                            Уютные дома из сруба и кленового бруса под ключ по выгодным ценам
+                        </div>
+                        <div class="more_btn">
+                            <span class="fa-solid fa-arrow-up"></span>
+                            <span>Подробнее</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="technology_item _anim-items">
+                    <div class="technology_item__heading">
+                        Комбинированные дома
+                    </div>
+                    <div class="technology_item__img_place">
+                        <div class="technology_item__img_background">
+                            <img src="static/img/combined_houses.png" alt="Комбинированные дома"/>
+                        </div>
+                    </div>
+                    <div class="technology_item__details_place">
+                        <div class="more_btn_place">
+                            Уютные дома из сруба и кленового бруса под ключ по выгодным ценам
+                        </div>
+                        <div class="more_btn">
+                            <span class="fa-solid fa-arrow-up"></span>
+                            <span>Подробнее</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="technology_item _anim-items">
+                    <div class="technology_item__heading">
+                        Фахверковые дома
+                    </div>
+                    <div class="technology_item__img_place">
+                        <div class="technology_item__img_background">
+                            <img src="static/img/half-timbered_houses.png" alt="Фахверковые дома"/>
+                        </div>
+                    </div>
+                    <div class="technology_item__details_place">
+                        <div class="more_btn_place">
+                            Уютные дома из сруба и кленового бруса под ключ по выгодным ценам
+                        </div>
+                        <div class="more_btn">
+                            <span class="fa-solid fa-arrow-up"></span>
+                            <span>Подробнее</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<!-- === Sphere section  === -->
+<section class="sphere_section _anim-items" id="sphere">
+    <div class="container_data">
+        <div class="heading">
+            СФЕРА ДЕЯТЕЛЬНОСТИ
+        </div>
+        <div class="sphere_items_place">
+            <div class="sphere_item _anim-items">
+                <div class="sphere_item__photo_place">
+                    <img src="static/img/sphere1.png" alt="ИНДИВИДУАЛЬНОЕ ПРОЕКТИРОВАНИЕ"/>
+                </div>
+                <div class="sphere_item__data">
+                    <div class="heading">
+                        ИНДИВИДУАЛЬНОЕ ПРОЕКТИРОВАНИЕ
+                    </div>
+                    Эксклюзивное проектирование Вашего дома в сочетании с новаторскими технологиями
+                    <div class="go_to_section">
+                        Перейти в раздел <span class="yellow_line"></span>
+                        <span class="fa-solid fa-chevron-right"></span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="sphere_item _anim-items">
+                <div class="sphere_item__photo_place second__photo_place">
+                    <img src="static/img/sphere2.png" alt="ПОДБОР ЗЕМЕЛЬНОГО УЧАСТКА"/>
+                </div>
+                <div class="sphere_item__data">
+                    <div class="heading">
+                        ПОДБОР ЗЕМЕЛЬНОГО УЧАСТКА
+                    </div>
+                    Правильный выбор экологически благоприятных районов, инженерно-геологические изыскания и изучение
+                    окружающего ландшафта
+                    <div class="go_to_section">
+                        Перейти в раздел <span class="yellow_line"></span>
+                        <span class="fa-solid fa-chevron-right"></span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="sphere_item _anim-items">
+                <div class="sphere_item__photo_place">
+                    <img src="static/img/sphere3.png" alt="Жилая среда"/>
+                </div>
+                <div class="sphere_item__data">
+                    <div class="heading">
+                        Жилая среда
+                    </div>
+                    Индивидуальные комплексные решения вопросов энергоэффективности, функциональности и экологичности
+                    <div class="go_to_section">
+                        Перейти в раздел <span class="yellow_line"></span>
+                        <span class="fa-solid fa-chevron-right"></span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="sphere_item _anim-items">
+                <div class="sphere_item__photo_place second__photo_place">
+                    <img src="static/img/sphere4.png" alt="СТРОИТЕЛЬСТВО ДОМОВ"/>
+                </div>
+                <div class="sphere_item__data">
+                    <div class="heading">
+                        СТРОИТЕЛЬСТВО ДОМОВ
+                    </div>
+                    Воплощение самых смелых и оригинальных архитектурных решений в соответствии с техническими
+                    стандартами
+                    и нормами
+                    <div class="go_to_section">
+                        Перейти в раздел <span class="yellow_line"></span>
+                        <span class="fa-solid fa-chevron-right"></span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- === Benefits section  === -->
+<section class="benefits_section" id="benefits">
+    <div class="container_data">
+        <div class="heading">
+            Наши преимущества
+        </div>
+        <div class="benefits_place">
+            <div class="advantage_item _anim-items">
+                <div class="advantage_item__img_place">
+                    <img src="./static/img/advantage1.png"
+                         alt="Строительство и оснащение дома с момента создания проекта до отделки"/>
+                </div>
+                <div class="advantage_item__description">
+                    Строительство и оснащение дома с момента создания проекта до отделки
+                </div>
+            </div>
+
+            <div class="advantage_item _anim-items">
+                <div class="advantage_item__img_place">
+                    <img src="./static/img/advantage2.png"
+                         alt="Все материалы сертифицированы по российским и европейским стандартам"/>
+                </div>
+                <div class="advantage_item__description">
+                    Все материалы сертифицированы по российским и европейским стандартам
+                </div>
+            </div>
+
+            <div class="advantage_item _anim-items">
+                <div class="advantage_item__img_place">
+                    <img src="./static/img/advantage3.png" alt="Гарантийные обязательства 25 лет"/>
+                </div>
+                <div class="advantage_item__description">
+                    Гарантийные обязательства 25 лет
+                </div>
+            </div>
+
+            <div class="advantage_item _anim-items">
+                <div class="advantage_item__img_place">
+                    <img src="./static/img/advantage4.png" alt="Цены от 30 000 рублей за м2"/>
+                </div>
+                <div class="advantage_item__description">
+                    Цены от 30 000 рублей за м2
+                </div>
+            </div>
+
+            <div class="advantage_item _anim-items">
+                <div class="advantage_item__img_place">
+                    <img src="./static/img/advantage5.png"
+                         alt="Экологичность, энергоэффективность и высокое качество материалов по доступным ценам"/>
+                </div>
+                <div class="advantage_item__description">
+                    Экологичность, энергоэффективность и высокое качество материалов по доступным ценам
+                </div>
+            </div>
+
+            <div class="advantage_item _anim-items">
+                <div class="advantage_item__img_place">
+                    <img src="./static/img/advantage6.png"
+                         alt="Сроки возведения дома от 2-х месяцев, точное следование графику"/>
+                </div>
+                <div class="advantage_item__description">
+                    Сроки возведения дома от 2-х месяцев, точное следование графику
+                </div>
+            </div>
+
+            <div class="advantage_item _anim-items">
+                <div class="advantage_item__img_place">
+                    <img src="./static/img/advantage7.png"
+                         alt="Патент на эксклюзивные современные методы строительства и технологии будущего"/>
+                </div>
+                <div class="advantage_item__description">
+                    Патент на эксклюзивные современные методы строительства и технологии будущего
+                </div>
+            </div>
+
+            <div class="advantage_item _anim-items">
+                <div class="advantage_item__img_place">
+                    <img src="./static/img/advantage8.png"
+                         alt="Уникальная дизайнерская работа в устройстве и оформлении дома"/>
+                </div>
+                <div class="advantage_item__description">
+                    Уникальная дизайнерская работа в устройстве и оформлении дома
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<!-- === About section  === -->
+<section class="about_section" id="about">
+    <div class="container_data">
+        <div class="heading">
+            О компании
+        </div>
+        <div class="about_item">
+            <div class="about_item__img_place">
+                <img src="./static/img/about1.png" alt="О компании"/>
+                <div class="yellow_rectangle _anim-items"></div>
+            </div>
+            <div class="about_item__data">
+                <div class="about_item__heading">
+                    Компания «Строй Дом Архитектура»
+                </div>
+                Компания осуществляет строительство и оснащение домов классов «комфорт», «бизнес» и «элит»
+                под ключ
+                с применением высококачественных материалов, способных прослужить в течение длительного
+                времени.
+            </div>
+        </div>
+        <div class="about_item">
+            <div class="about_item__img_place second_img _anim-items">
+                <img src="./static/img/about2.png" alt="О компании"/>
+            </div>
+            <div class="about_item__data">
+                Мы обладаем патентом на уникальные технологии и умело сочетаем многолетний опыт с
+                новаторскими техниками. Мы создаем проекты при участии именитых архитекторов и
+                проектировщиков с многолетним стажем. Мы воплотим уникальный проект Вашего дома в кратчайшие
+                сроки!
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- Footer -->
+<footer class="footer">
+    <div class="container">
+        <div class="footer_logo">
+            <div class="footer_logo__heading">
+                Строй дом
+            </div>
+            <div class="footer_logo__subheading">
+                Архитектура
+            </div>
+        </div>
+        <nav class="footer_nav">
+            <a href="#main" class="footer__nav_link">
+                Главная
+            </a>
+            <a href="#technology" class="footer__nav_link">
+                Технологии
+            </a>
+            <a href="#sphere" class="footer__nav_link">
+                Сфера деятельности
+            </a>
+            <a href="#benefits" class="footer__nav_link">
+                Преимущества
+            </a>
+            <a href="#about" class="footer__nav_link">
+                О компании
+            </a>
+        </nav>
+    </div>
+    <div class="container">
+        <div class="footer_address">
+            г. Калининград,
+            ул. Советский проспект, 159
+        </div>
+        <div class="footer_social_items">
+            <a href="tel: +7 (999) 999-99-99" class="phone">
+                +7 (999) 999-99-99
+            </a>
+            <a class="social_item" href="" target="_blank">
+                <div class="social_item__link">
+                    <span class="fa-solid fa-envelope"></span>
+                </div>
+            </a>
+            <a class="social_item" href="" target="_blank">
+                <div class="social_item__link">
+                    <span class="fa-brands fa-facebook"></span>
+                </div>
+            </a>
+            <a class="social_item" href="" target="_blank">
+                <div class="social_item__link">
+                    <span class="fa-brands fa-whatsapp"></span>
+                </div>
+            </a>
+            <a class="social_item" href="" target="_blank">
+                <div class="social_item__link">
+                    <span class="fa-brands fa-instagram"></span>
+                </div>
+            </a>
+            <a class="social_item" href="" target="_blank">
+                <div class="social_item__link">
+                    <span class="fa-brands fa-vk"></span>
+                </div>
+            </a>
+        </div>
+    </div>
+</footer>
+<script src="static/libraries/fontawesome/js/all.js"></script>
+<script src="static/js/index.js"></script>
+</body>
+</html>
