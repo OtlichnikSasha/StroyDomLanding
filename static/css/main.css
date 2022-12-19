@@ -292,9 +292,9 @@ a {
 }
 
 .mobile_menu_place._active span:first-child {
-    -webkit-transform: rotate(45deg);
-    -ms-transform: rotate(45deg);
-    transform: rotate(45deg);
+    -webkit-transform: rotate(230deg);
+    -ms-transform: rotate(230deg);
+    transform: rotate(230deg);
     background: #ea3535;
 }
 .mobile_menu_place._active span:nth-child(2n) {
