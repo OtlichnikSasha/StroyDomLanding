@@ -5,7 +5,7 @@
             const preloader = document.getElementById("preloader")
             document.body.classList.remove("hidden")
             preloader.classList.remove("visible");
-        }, 1200)
+        }, 400)
     }
     const nav = document.getElementById("nav");
     const mobile_menu = document.getElementById("mobile_menu_place");
@@ -78,7 +78,7 @@
 
 
     // Swiper
-    const swiper = new Swiper('.swiper', {
+    new Swiper('.swiper', {
         // Optional parameters
         direction: 'horizontal',
         loop: true,
@@ -113,16 +113,16 @@
         return {top: rect.top + scrollTop, left: rect.left + scrollLeft}
     }
     const scrollAnimate = () => {
-        for(let i = 0; i < animItems.length; i++){
+        for (let i = 0; i < animItems.length; i++) {
             const animItem = animItems[i];
             const animItemHeight = animItem.offsetHeight;
             const animItemOffset = offset(animItem).top;
             const animPart = 6;
             let animItemPoint = window.innerHeight - animItemHeight / animPart;
-            if(animItemHeight > window.innerHeight){
+            if (animItemHeight > window.innerHeight) {
                 animItemPoint = window.innerHeight - window.innerHeight / animPart;
             }
-            if(pageYOffset > animItemOffset - animItemPoint && pageYOffset < (animItemOffset + animItemHeight)){
+            if (pageYOffset > animItemOffset - animItemPoint && pageYOffset < (animItemOffset + animItemHeight)) {
                 animItem.classList.add("animate")
             }
         }
